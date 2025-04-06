@@ -14,7 +14,7 @@ const RegisterForm = () => {
         const {isAuthenticated,handleRegister } = useAuth()
     
   return (
-    <div className="w-1/2 p-6">
+    <div className="w-full md:w-1/2 p-6">
         <h2 className="text-3xl font-bold text-gray-700 text-center">
           <span className="text-pink-500">list</span>bnb
         </h2>

@@ -5,7 +5,7 @@ const RightBox = ({activeForm}) => {
   return (
     <div className="w-full md:w-1/2 bg-pink-50 flex flex-col justify-center items-center p-10">
           <img
-            src="https://via.placeholder.com/200"
+            src="/images/login.png"
             alt="Illustration"
             className="mb-6"
           />

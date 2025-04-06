@@ -20,7 +20,7 @@ const MyProfile = () => {
             
 
   return (
-    <main className="container mx-auto px-6 py-8 flex gap-6 justify-center">
+    <main className="container mx-auto px-6 py-8 flex justify-center">
   <section className="flex-1 md:max-w-xl bg-white p-6 rounded-lg shadow">
     <form onSubmit={handleSubmit(updateUser)} className="space-y-5">
       <div>

@@ -79,7 +79,7 @@ const Header = () => {
               Sign In
             </Link>
           )}
-          <span className="text-gray-700">{userData?.username}</span>
+          <Link to="/dashboard/account"><span className="text-gray-700">{userData?.username}</span></Link>
           <Link to="/dashboard/postad" onClick={() => setMenuOpen(false)}>
             <button className="bg-red-500 text-white px-4 py-2 rounded-md w-full">
               Post Your Ad
